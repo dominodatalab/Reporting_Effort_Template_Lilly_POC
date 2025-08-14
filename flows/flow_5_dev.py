@@ -30,7 +30,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move ae from Dataset to Flows node
     ae_task = run_domino_job_task(
         flyte_task_name="ae SDTM",
-        command="code/utils/SDTM_transfer/ae.py",
+        command="utils/SDTM_transfer/ae.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="ae", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
@@ -43,7 +43,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move cm from Dataset to Flows node
     cm_task = run_domino_job_task(
         flyte_task_name="cm SDTM",
-        command="code/utils/SDTM_transfer/cm.py",
+        command="utils/SDTM_transfer/cm.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="cm", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
@@ -56,7 +56,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move dm from Dataset to Flows node
     dm_task = run_domino_job_task(
         flyte_task_name="dm SDTM",
-        command="code/utils/SDTM_transfer/dm.py",
+        command="utils/SDTM_transfer/dm.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="dm", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
@@ -69,7 +69,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move ex from Dataset to Flows node
     ex_task = run_domino_job_task(
         flyte_task_name="ex SDTM",
-        command="code/utils/SDTM_transfer/ex.py",
+        command="utils/SDTM_transfer/ex.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="ex", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
@@ -82,7 +82,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move lb from Dataset to Flows node
     lb_task = run_domino_job_task(
         flyte_task_name="lb SDTM",
-        command="code/utils/SDTM_transfer/lb.py",
+        command="utils/SDTM_transfer/lb.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="lb", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
@@ -95,7 +95,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move mh from Dataset to Flows node
     mh_task = run_domino_job_task(
         flyte_task_name="mh SDTM",
-        command="code/utils/SDTM_transfer/mh.py",
+        command="utils/SDTM_transfer/mh.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="mh", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
@@ -108,7 +108,7 @@ def SDTM_ADaM_TFL(sdtm_dataset_snapshot: str, metadata_snapshot: str):
     # Move vs from Dataset to Flows node
     vs_task = run_domino_job_task(
         flyte_task_name="vs SDTM",
-        command="code/utils/SDTM_transfer/vs.py",
+        command="utils/SDTM_transfer/vs.py",
         inputs=[Input(name="sdtm_snapshot_task_input", type=str, value=sdtm_dataset_snapshot)],
         output_specs=[Output(name="vs", type=FlyteFile[TypeVar('sas7bdat')])],
         hardware_tier_name=hardware_tier_name,
