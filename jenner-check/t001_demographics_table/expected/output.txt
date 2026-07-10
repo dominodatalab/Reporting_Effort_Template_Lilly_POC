@@ -1,0 +1,28 @@
+                                                        CDISC01                                                         
+                                                       Table 1.1                                                        
+                                  Demographics Summary - Age Distribution by Treatment                                  
+                                             Simulated Analysis Population                                              
+
+                                                                Placebo                         
+Age Group                                           Statistic   (N=100)                         
+------------------------------------------------------------------------------------------------
+                                                                                                
+Less than 60 years                                  n (%)       38 (38.0)                       
+60 to <65 years                                     n (%)       18 (18.0)                       
+65 to <70 years                                     n (%)       13 (13.0)                       
+70 to <75 years                                     n (%)       16 (16.0)                       
+75 to <80 years                                     n (%)       7 (7.0)                         
+80 years and older                                  n (%)       8 (8.0)
+                                   Age Group Distribution by Treatment (Verification)                                   
+
+                                                   The FREQ Procedure
+
+Table of trta by agen
+
+trta    |         1 |         2 |         3 |         4 |         5 |         6 |      Total
+--------+-----------+-----------+-----------+-----------+-----------+-----------+-----------
+Placebo |        38 |        18 |        13 |        16 |         7 |         8 |        100
+--------+-----------+-----------+-----------+-----------+-----------+-----------+-----------
+Total   |        38 |        18 |        13 |        16 |         7 |         8 |        100
+
+
