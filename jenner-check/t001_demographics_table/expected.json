@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-10T11:40:00Z",
+  "_captured_run_id": "r_148e6ef05a7949bca309f9dee37145b7",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Macro variable PLACEBO_N = 100",
+    "Wrote order_results (7 rows, 5 columns).",
+    "PROC REPORT output 7 observations with 4 variables.",
+    "PROC FREQ statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "output_contains": ["Demographics Summary - Age Distribution by Treatment", "The FREQ Procedure"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

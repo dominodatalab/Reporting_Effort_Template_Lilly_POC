@@ -1,0 +1,26 @@
+                                            ADAM.ADSL (derived from SDTM.DM)                                            
+
+  usubjid                   arm  sex  country  age
+SUBJ-0001  Placebo               F    USA       54
+SUBJ-0002  Placebo               M    USA       61
+SUBJ-0003  Xanomeline Low Dose   M    GBR       68
+SUBJ-0004  Xanomeline Low Dose   F    GBR       73
+SUBJ-0005  Xanomeline High Dose  F    DEU       66
+SUBJ-0006  Xanomeline High Dose  M    DEU       84
+
+                            ADAM.ADVS (ADSL merged onto SDTM.VS by usubjid, VS-matched only)                            
+
+  usubjid                   arm  sex  country  age  vstestcd     visit  vsstresn
+SUBJ-0001  Placebo               F    USA       54  SYSBP     BASELINE       128
+SUBJ-0001  Placebo               F    USA       54  SYSBP     WEEK 4         124
+SUBJ-0001  Placebo               F    USA       54  DIABP     BASELINE        82
+SUBJ-0002  Placebo               M    USA       61  SYSBP     BASELINE       135
+SUBJ-0002  Placebo               M    USA       61  DIABP     BASELINE        88
+SUBJ-0003  Xanomeline Low Dose   M    GBR       68  SYSBP     BASELINE       141
+SUBJ-0003  Xanomeline Low Dose   M    GBR       68  SYSBP     WEEK 4         138
+SUBJ-0004  Xanomeline Low Dose   F    GBR       73  SYSBP     BASELINE       119
+SUBJ-0005  Xanomeline High Dose  F    DEU       66  SYSBP     BASELINE       150
+SUBJ-0005  Xanomeline High Dose  F    DEU       66  DIABP     BASELINE        95
+SUBJ-0006  Xanomeline High Dose  M    DEU       84  SYSBP     BASELINE       133
+
+

@@ -1,0 +1,15 @@
+                                                      Table 14.1.1                                                      
+                                            Summary of Analysis Populations                                             
+                                                  Safety Analysis Set                                                   
+
+                                                                Placebo                           Xanomeline Low Dose               Xanomeline High Dose            
+Age Group                                           Statistic    (N=10)                            (N=10)                            (N=10)                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                                    
+Less than 60 years old                              n (%)       2 (20.0)                          2 (20.0)                          2 (20.0)                        
+60 years old <= age < 65 years old                  n (%)       1 (10.0)                          2 (20.0)                          1 (10.0)                        
+65 years old <= age < 70 years old                  n (%)       2 (20.0)                          2 (20.0)                          2 (20.0)                        
+70 years old <= age < 75 years old                  n (%)       2 (20.0)                          1 (10.0)                          2 (20.0)                        
+75 years old <= age < 80 years old                  n (%)       1 (10.0)                          1 (10.0)                          1 (10.0)                        
+80 years and older                                  n (%)       2 (20.0)                          2 (20.0)                          2 (20.0)
+

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_demographics_table",
+  "source_file": "demographics_table.sas",
+  "source_blob_sha": "e6de756915536d9137a9ae8892dfbf7332603b48",
+  "source_commit": "e4b89bb9d3165b36543f2d9a84564b8b468e695f",
+  "notes": "Self-contained demographics summary. Author's simulated-data generation (call streaminit/rand), PROC SQL count-into macros, %age_data age-grouping macro, PROC TRANSPOSE reshape, PROC REPORT display and PROC FREQ verification kept verbatim. Removed only Domino platform plumbing: %sysget project name -> literal CDISC01, dropped x-mkdir and the /mnt/artifacts PDF ODS destination so output renders to the default listing."
+}

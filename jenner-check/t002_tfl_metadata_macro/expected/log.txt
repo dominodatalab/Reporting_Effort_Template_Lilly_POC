@@ -1,0 +1,36 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: Library METADATA uses 1 concatenated paths.
+NOTE: DATA metadata.t_pop
+
+
+NOTE: Wrote metadata.t_pop (1 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA metadata
+
+
+NOTE: Read 1 rows from metadata.t_pop.
+NOTE: Wrote metadata (1 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA _null_
+
+
+NOTE: Read 1 rows from metadata.
+NOTE: Wrote _null_ (1 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: tfl_metadata resolved title1 = Table 14.1.1
+NOTE: tfl_metadata resolved title2 = Summary of Analysis Populations
+NOTE: tfl_metadata resolved pop    = Safety Analysis Set
+NOTE: tfl_metadata resolved popn   =          306
+NOTE: Option TITLE changed to Table 14.1.1.
+NOTE: Option TITLE2 changed to Summary of Analysis Populations.
+NOTE: PROC PRINT data=metadata
+
+NOTE: PROC PRINT completed: 1 observations printed, 4 variables
+

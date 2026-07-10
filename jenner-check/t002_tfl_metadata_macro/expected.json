@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-10T11:42:00Z",
+  "_captured_run_id": "r_c834e409a33f4741bb9957abc08cc6a0",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "tfl_metadata resolved title1 = Table 14.1.1",
+    "tfl_metadata resolved pop    = Safety Analysis Set",
+    "Summary of Analysis Populations"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

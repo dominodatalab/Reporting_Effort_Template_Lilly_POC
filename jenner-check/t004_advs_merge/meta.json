@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_advs_merge",
+  "source_file": "prod/adam/ADSL.sas, prod/adam/ADVS.sas",
+  "source_blob_sha": "ADSL:bcc281ba141aef7f3cbd0bc33fdc047d219a42e5 ADVS:a4f6c9e25aab3a82ea86d8e146a7dea12dc74fa4",
+  "source_commit": "e4b89bb9d3165b36543f2d9a84564b8b468e695f",
+  "notes": "Interactive-branch derivation bodies of ADSL.sas (data adam.adsl; set sdtm.dm) and ADVS.sas (merge adam.adsl sdtm.vs (in=v); by usubjid; if v;) verbatim. Substituted small mock SDTM.DM (6 subjects x 3 arms) and SDTM.VS (11 vitals records, comma-delimited datalines) for the mounted SDTM snapshot; added PROC PRINT of the two derived ADaM datasets so the BY-usubjid merge (VS-matched left join) is visible."
+}

@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-10T11:46:00Z",
+  "_captured_run_id": "r_cb802f421ebe4f0ea0cdb62642d33739",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Macro variable PLACEBO_N = 10",
+    "Macro variable LOW_DOSE_N = 10",
+    "Macro variable HIGH_DOSE_N = 10",
+    "Wrote order_results (7 rows"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "output_contains": ["Summary of Analysis Populations", "Less than 60 years old"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

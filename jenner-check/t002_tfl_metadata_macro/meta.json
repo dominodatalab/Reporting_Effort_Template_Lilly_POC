@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_tfl_metadata_macro",
+  "source_file": "share/macros/tfl_metadata.sas",
+  "source_blob_sha": "2f2662b1fdf39791ee5d46c1fe4e319919cb5397",
+  "source_commit": "e4b89bb9d3165b36543f2d9a84564b8b468e695f",
+  "notes": "Caller for the author's %tfl_metadata() macro (definition included verbatim). Macro copies metadata.&__prog_name. to WORK.metadata then walks _numeric_/_character_ arrays with call symput+vname to expose each column as a like-named macro var. Bundle stands up a small mock metadata.t_pop row (autoexec) with __prog_name=t_pop and METADATA pointed at WORK, calls the macro, and verifies the resolved macro variables drive a titled PROC PRINT."
+}
